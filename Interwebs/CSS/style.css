@@ -1,17 +1,33 @@
 .arimo-regular{font-family:"arimo",sans-serif;font-weight:400;font-style:normal;color:white;font-size:18px;}
-.arimo-regular-centered{text-align:center;font-family:"arimo",sans-serif;font-weight:400;font-style:normal;color:white;font-size:18px;}
+.arimo-regular-centered{
+    text-align:center;
+    font-family:"arimo",sans-serif;
+    font-weight:400;
+    font-style:normal;
+    color:white;
+    font-size:18px;
+    max-width: 750px;
+    margin: 0 auto;}
 
 .arimo-regular-24px{font-family:"arimo",sans-serif;font-weight:400;font-style:normal;color:white;font-size:22px;}
 
-.arc-heading-centered{text-align:center;font-family:"arimo",sans-serif;font-weight:400;font-style:normal;color:white;font-size:88px;}
+.arc-heading-centered{text-align:center;font-family:"arimo",sans-serif;font-weight:400;font-style:normal;color:white;font-size:57px;}
 
 .arc-body-centered{text-align:center;font-family:"arimo",sans-serif;font-weight:400;font-style:normal;color:white;font-size:18px;}
 
 .center_img{display:block;margin-left:auto;margin-right:auto;width:50%;}
 
-.game-picture{width:100%;}
+.game-picture{
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    display: block;}
 
-.logo-picture{width:100%;}
+.logo-picture{
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    display: block;}
 
 .p1{text-align:center;}
 
@@ -35,11 +51,25 @@ ul li a{display:block;color:white;text-align:center;padding:14px 16px;text-decor
 
 ul li a:hover{background-color:#111111;}
 
-buy_button{text-align:center;}
+.button{
+    text-align:center;
+    font-family:"arimo",sans-serif}
 
-buy_button btn a{display:block;color:white;text-align:center;padding:14px 16px;text-decoration:none;}
+.button a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 50px;
+    margin: 0 auto;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    font-family:"arimo",sans-serif;}
 
-buy_button btn a:hover{background-color:#111111}
+
+.button a:hover{
+    background-color:#111111}
 
 .container{text-align: center;}
 
